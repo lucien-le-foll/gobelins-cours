@@ -14,7 +14,7 @@
     <div class="container">
         <div class="tabs">
             <ul>
-                <li><a href="/files">Home</a></li>
+                <li><a href="/">Cours</a></li>
             </ul>
         </div>
     </div>

@@ -11,10 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/files', 'FilesController@index');
+Route::get('/', 'FilesController@index');
 Route::get('/files/{folder}', 'FilesController@showFolder');
 Route::get('/files/{folder}/{file}', 'FilesController@showFile');
